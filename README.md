@@ -6,6 +6,35 @@ Slouží pro vizualizaci a analýzu dat exportovaných z portálu EDC.
 
 ---
 
+## Instalace
+
+Aplikaci si můžete stáhnout v sekci [Releases](https://github.com/mboron/sdileni-elektriny/releases).
+
+### Windows
+
+1. Ze sekce **Releases** stáhněte soubor `sdileni_elektriny_*_windows.zip`.
+2. Rozbalte archiv do libovolné složky.
+3. Spusťte soubor `sdileni_elektriny.exe`.
+
+> Aplikace nevyžaduje instalaci – stačí spustit přímo z rozbalené složky.
+
+### macOS
+
+1. Ze sekce **Releases** stáhněte soubor `sdileni_elektriny_*_macos.app.zip`.
+2. Rozbalte stažený archiv – vznikne soubor `sdileni_elektriny.app`.
+3. Přesuňte aplikaci do složky **Aplikace** (volitelné, ale doporučené).
+4. Při prvním spuštění může macOS zobrazit upozornění, že aplikace pochází od neidentifikovaného vývojáře. V takovém případě:
+    - Otevřete **Nastavení systému** → **Soukromí a zabezpečení**.
+    - V sekci **Zabezpečení** klikněte na **Přesto otevřít**.
+
+---
+
+## Soukromí a bezpečnost dat
+
+Aplikace **neodesílá žádná data na internet**. Veškerá importovaná data i informace o místech jsou ukládána výhradně lokálně do SQLite databáze v zařízení uživatele. Aplikace nevyžaduje přístup k internetu a neprovádí žádnou síťovou komunikaci.
+
+---
+
 ## Funkce
 
 - **Import dat** – Import CSV souborů exportovaných z portálu EDC do lokální SQLite databáze. Aplikace automaticky opravuje formátovací odlišnosti v exportu EDC (mezery v názvech sloupců, desetinná čárka místo tečky).
@@ -22,34 +51,6 @@ Slouží pro vizualizaci a analýzu dat exportovaných z portálu EDC.
   - Srovnávací analýza výroby a spotřeby (přebytek, nedostatek, soběstačnost)
 - **Nastavení** – Uživatelská nastavení aplikace
 - **Export dat** – Export databáze pro zálohu nebo přenos
-
----
-
-## Soukromí a bezpečnost dat
-
-Aplikace **neodesílá žádná data na internet**. Veškerá importovaná data i informace o místech jsou ukládána výhradně do lokální databáze v zařízení uživatele.
-Aplikace nevyžaduje přístup k internetu a neprovádí žádnou síťovou komunikaci.
-
-## Instalace
-
-Aplikaci si můžete stáhnout z [GitHub repozitáře](https://github.com/mboron/sdileni-elektriny) v sekci [Releases](https://github.com/mboron/sdileni-elektriny/releases).
-
-### Windows
-
-1. Ze sekce **Releases** stáhněte soubor `sdileni_elektriny_*_windows.zip`.
-2. Rozbalte archiv do libovolné složky.
-3. Spusťte soubor `sdileni_elektriny.exe`.
-
-> Aplikace nevyžaduje instalaci – stačí spustit přímo z rozbalené složky.
-
-### macOS
-
-1. Ze sekce **Releases** stáhněte soubor `sdileni_elektriny_*_macos.app.zip`.
-2. Rozbalte stažený archiv – vznikne soubor `sdileni_elektriny.app`.
-3. Přesuňte aplikaci do složky **Aplikace** (volitelné, ale doporučené).
-4. Při prvním spuštění může macOS zobrazit upozornění, že aplikace pochází od neidentifikovaného vývojáře. V takovém případě:
-   - Otevřete **Nastavení systému** → **Soukromí a zabezpečení**.
-   - V sekci **Zabezpečení** klikněte na **Přesto otevřít**.
 
 ---
 
