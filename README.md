@@ -17,6 +17,7 @@ Aplikaci si můžete stáhnout v sekci [Releases](https://github.com/mboron/sdil
 3. Spusťte soubor `sdileni_elektriny.exe`.
 
 > Aplikace nevyžaduje instalaci – stačí spustit přímo z rozbalené složky.
+> Antivirový program (Avast, AVG, apod.) může chtít aplikaci otestovat při jejím prvním spuštění.
 
 ### macOS
 
